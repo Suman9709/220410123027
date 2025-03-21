@@ -16,6 +16,7 @@ const Topuser = () => {
         setError("No users found or API error.");
       } else {
         setTopUser(data[0]); 
+        
       }
       setLoading(false);
     };
